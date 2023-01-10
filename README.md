@@ -5,5 +5,5 @@ Pythonの基礎・アルゴリズムを学びなおして効率よく、柔軟�
 
 ## Qiita記事一覧
 
-JupyterNotebookで使えるマークダウン形式コード
+JupyterNotebookで使えるマークダウン形式コード： 
 https://qiita.com/K_Nemoto/items/1349fc9348c170d6fe75
