@@ -21,6 +21,13 @@ Pythonの基礎・アルゴリズムを学びなおして効率よく、柔軟�
 - 比較演算子
 - 論理演算子
 
+### 第4章
+- 条件分岐(if-else, if-elif構文)
+- 繰り返し処理(while, for構文)
+- 内包表記
+- ループの制御(break, continue構文)
+- 例外処理(try, except, finally構文)
+
 
 ## Qiita記事一覧
 
