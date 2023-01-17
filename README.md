@@ -28,6 +28,17 @@ Pythonの基礎・アルゴリズムを学びなおして効率よく、柔軟�
 - ループの制御(break, continue構文)
 - 例外処理(try, except, finally構文)
 
+### 第5章
+- 
+
+### 第6章
+- コンテナとコレクション
+- list型について
+- スライス構文
+- append, insert, pop,remove, clearの使い方
+- スタックの実装
+- sort, enumerate, zip, map, filter,　真偽判定の使い方
+
 
 ## Qiita記事一覧
 
