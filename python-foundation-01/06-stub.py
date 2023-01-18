@@ -66,6 +66,9 @@ print(data)
 print(data.pop())
 print(data)
 
+```python
+
+```
 
 """
 リスト内包表記を使って指定した全ての要素を削除する
@@ -88,7 +91,7 @@ print(data)
 
 
 """
-リストを検索する
+リスト内の要素を検索する
 """
 data = list("いろはにほへとちりぬるを")
 
@@ -120,6 +123,7 @@ print(data03)
 #appendを使ってリストを連結しようとすると、リストそのものが1つの要素として扱われてしまう
 data04 = data
 data04.append(data02)
+print(data04)
 
 
 """
@@ -141,19 +145,19 @@ print(data_lambda)
 
 
 """
-リストをforループを使って処理する
+リストをforループを使って処理
 インデックス・値をforで取り出すほかにも、enumerate・zipを使うことでより複雑なリスト処理が実装できる
 """
 data = ["Panda","Rabbit","Koara","Tiger"]
 data02 = ["パンダ","ウサギ","コアラ","トラ"]
 
+#インデックスと値を全て表示
 for index, value in enumerate(data):
     print(index, ":",value)
 
+#二つのリストの値を双方抽出する
 for d1, d2 in zip (data, data02):
     print(d1, " Translated: ", d2)
-
-
 """
 リスト内要素の真偽を判定
 allで全てがTrueか、anyで1つでもTrueがあるか、not anyで全てがFalseかを判定する
