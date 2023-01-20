@@ -15,5 +15,35 @@ setは複数の値を扱うことができるが、順序を持たず値が重�
 setはミュータブル、frozensetはイミュータブルな集合をとりあつかいたい場合に用いる
 """
 
-sets = {"Elen","Mikasa","Armin","Jean"}
-print(sets)
+my_set = {"Elen","Mikasa","Armin"}
+print(my_set)
+my_frozenset = frozenset({'value1', 'value2', 'value3', 'value4'})
+print(my_frozenset)
+
+my_sets.add("Jean")
+my_sets.remove("Elen")
+
+for item in my_set:
+    print(item)
+
+#set型には順序がないので、popすると毎回結果が異なる
+print(my_set.pop())
+print(my_set)
+
+my_set.clear()
+print(my_set)
+
+"""
+セットの比較と判定
+要素が含まれているか、部分集合になっているかを判定する
+"""
+
+sets1 = {15,25,37,20}
+sets2 = {10,13,32}
+sets3 = {25,37}
+
+print(10 in sets1)
+print(10 not in sets1)
+
+print(sets3.issubset(sets1))
+print(sets3.issuperset(sets1))
