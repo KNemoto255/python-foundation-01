@@ -49,7 +49,7 @@ Pythonの基礎・アルゴリズムを学びなおして効率よく、柔軟�
 JupyterNotebookで使えるマークダウン形式コード： 
 https://qiita.com/K_Nemoto/items/1349fc9348c170d6fe75
 
-Pythonチートシート - List型の使い方一覧
+Pythonチートシート - List型の使い方一覧：
 https://qiita.com/K_Nemoto/items/4440e01a12a41a724329
 
 
